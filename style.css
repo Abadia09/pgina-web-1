@@ -1,0 +1,40 @@
+@keyframes chimichanga {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: #059411;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+@keyframes pan_con_queso {
+    0% {
+      font-size: 15px;
+    }
+  
+    50% {
+        font-size: 30px;
+    }
+  
+    100% {
+        font-size: 20px;
+    }
+}
+
+h1:hover {
+    animation: chimichanga 5s;
+}
+
+
+
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 20px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #75c5f7; /* El color del fondo de la página web */
+    color: #059411; /* El color del texto*/ 
+    animation: pan_con_queso 3s;
